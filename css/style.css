@@ -1,0 +1,91 @@
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+/* --------------- */
+
+p {
+	color: blueviolet;
+}
+span {
+	color: midnightblue;
+}
+.spisok {
+	color: crimson;
+}
+.text {
+	color: darkgray;
+}
+.shmekst {
+	color: deeppink;
+}
+#menu {
+	color: gold;
+}
+span.shmekst {
+	color: indigo;
+}
+.content {
+	color: maroon;
+}
+.content__item {
+	color: lawngreen;
+}
+.content .content__item {
+	color: orangered;
+}
+* {
+	color: purple;
+}
+.contentik * {
+	color: cyan;
+}
+.contentik p,
+.contentik span {
+	color: lime;
+}
+.content .content__item,
+.contentik {
+	color: orange;
+}
+.content__item,
+footer {
+	color: red;
+}
+.contentik span {
+	color: salmon;
+}
+.contentik > span {
+	color: saddlebrown;
+}
+.contentik__item + * {
+	color: silver;
+}
+.contentik__item ~ * {
+	color: tomato;
+}
